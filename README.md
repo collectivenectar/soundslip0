@@ -16,6 +16,15 @@ Being heavily dependent on the chia blockchain, which
 would normally require a private node, I'm starting out by building on mintgardens API,
 to familiarize myself with the requirements and get up to speed quickly.
 
+Everything else is currently undecided, with only a higher likelihood towards the following
+dependencies:
+
+React
+tanstack query
+zustand
+IPFS
+libp2p
+
 If you have any suggestions feel free to reach out!
 
 
