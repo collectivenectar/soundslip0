@@ -1,6 +1,24 @@
 # soundslip - 0(v0)
 An audio NFT platform for artists and fans
 
+# Current State:
+
+This is in research and planning phase, with a focus on getting to stage 1 of 5 stages
+as an MVP (Minimum viable product). 
+
+*Current Task* as of 06/04/24
+
+Tech Stack Research
+
+
+
+Being heavily dependent on the chia blockchain, which
+would normally require a private node, I'm starting out by building on mintgardens API,
+to familiarize myself with the requirements and get up to speed quickly.
+
+If you have any suggestions feel free to reach out!
+
+
 # MVP stages:
 
 ## Version 1: Basic Audio Discovery and Management
