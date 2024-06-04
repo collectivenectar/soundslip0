@@ -1,94 +1,88 @@
-# soundslip0
-Chia blockchain audio NFT marketplace
+# soundslip - 0(v0)
+An audio NFT platform for artists and fans
 
-# Main features:
+# MVP stages:
 
-## MVP Version 1: Basic Audio Discovery and Management
+## Version 1: Basic Audio Discovery and Management
 
-Objective: Launch a basic browser-based platform enabling users to search for NFTs and manage NFT related audio files using standard sound library tools.
+Objective: Launch a foundational browser-based platform for users to discover and manage NFT-based audio files.
 
-Features:
+### Features:
 
-    NFT Search: Basic functionality to search for audio NFTs using filters and keywords
-    Sound Library Tools:
-        Playlists: Allow users to create and manage playlists
-        Albums: Enable grouping of tracks into albums
-        Sorting: Basic sorting functionality by criteria like date, popularity, title, artist
-    Audio Streaming: Simple streaming of audio files directly from the platform
-    Basic Caching: Implement rudimentary caching of audio files for improved playback performance
+    NFT Search: Implement basic functionality to search for audio NFTs using filters and keywords.
+    Sound Library Tools: Enable users to create and manage playlists, group tracks into albums, and sort content by date, popularity, title, and artist.
+    Audio Streaming: Facilitate simple streaming of audio files directly from the platform.
+    Basic Caching: Develop rudimentary caching of audio files to enhance playback performance.
 
-Development Focus:
+### Development Focus:
 
-    Set up the basic architecture
-    Integrate with mintgarden blockchain api for fetching NFT data
-    Service worker for streaming and caching audio files to and from IPFS/endpoints
-    Design a simple yet functional UI for searching and organizing audio files
+    Establish the core architecture of the platform.
+    Integrate with the MintGarden blockchain API to fetch NFT data.
+    Implement service workers for effective streaming and caching of audio files from IPFS or other endpoints.
+    Design a straightforward yet functional user interface for navigating and organizing audio files.
 
 ## MVP Version 2: Enhanced User Experience and Social Features
 
-Objective: Improve user engagement through enhanced playback features and initial social interactions
+Objective: Improve user engagement with advanced playback features and initial social functionalities.
 
-Features:
+### Features:
 
-    Advanced Audio Player: Integrate features like shuffle, repeat, queue management, album covers, trig based visualizations
-    User Profiles: Users can create and customize their profiles, linking them with DID, aggregating NFT data
-    Social: Comments, integrated social sharing(x, tiktok, etc)
-    Chat: libp2p chat, DID based
+    Advanced Audio Player: Integrate advanced features like shuffle, repeat, queue management, album covers, and trig-based visualizations.
+    User Profiles: Enable users to create and customize their profiles, linking them with decentralized identifiers (DIDs) and aggregating NFT data.
+    Social Interactions: Incorporate commenting capabilities and integrated social sharing (e.g., to platforms like Twitter, TikTok).
+    Chat: Implement DID-based chat functionality using libp2p for secure communication.
 
-Development Focus:
+### Development Focus:
 
-    Enhance security features by adding DID authentication, libp2p encryption, to enable secure
-    communication and lay the groundwork for commerce transactions. Small improvements to the player.
+    Enhance security by integrating DID authentication and libp2p encryption.
+    Make iterative improvements to the audio player to support new functionalities.
 
 ## MVP Version 3: Artist Tools, Custom Smart Coins
 
-Objective: Add features for audio producers/artists, and develop and audit the first smart coin
-    singleton for core commerce features
+Objective: Introduce specialized tools for audio producers and artists, focusing on commerce capabilities through smart coins.
 
-Features:
+### Features:
 
-    Artist Dashboard: Listener activity (Playlists, listens, comments, etc)
-    Artist Singleton Coins: 'buy now' or 'subscribe' links to chia offers, singleton chia coin
-    that helps artists verify a user has paid before allowing access
-    Periodical Singleton: Enable artists to set up subscription-based access to their products or services
-    Notifications and Alerts: Implement system notifications for new releases, subscriptions, and other interactions from users
+    Artist Dashboard: Provide artists with insights into listener activities such as playlists, listens, and comments.
+    Artist Singleton Coins: Develop 'buy now' or 'subscribe' functionalities linked to Chia offers, using singleton smart coins for access verification.
+    Periodical Singleton: Allow artists to establish subscription-based access to their content.
+    Notifications and Alerts: Set up system notifications for new releases, subscriptions, and other interactions.
 
-Development Focus:
+### Development Focus:
 
-    Build out the backend support for creating and managing NFTs
-    Implement smart coins for handling subscriptions and payments
-    Implement a system for managing event streams from chia blockchain
+    Extend backend functionality for NFT management.
+    Develop and audit custom smart coins tailored for commerce transactions.
+    Establish a robust system for managing and reacting to event streams from the Chia blockchain.
 
 ## MVP Version 4: Advanced Caching and Offline Access
 
-Objective: Enhance the platform's performance and accessibility by introducing advanced caching mechanisms and offline playback.
+Objective: Boost the platform’s performance and accessibility by enhancing caching mechanisms and enabling offline playback.
 
-Features:
+### Features:
 
-    Advanced Caching Mechanisms: Implement more sophisticated caching to reduce load times and enhance user experience.
-    Offline Playback: Allow users to save content for offline access. PWA progress?
-    Quality of Service Enhancements: Adapt stream quality based on user connection speed.
+    Advanced Caching Mechanisms: Deploy sophisticated caching strategies to reduce load times and improve user experience.
+    Offline Playback: Allow content to be saved for offline access, leveraging Progressive Web App (PWA) technology.
+    Quality of Service Enhancements: Adapt streaming quality based on user connection speeds.
 
-Development Focus:
+### Development Focus:
 
-    Develop advanced caching solutions like service workers.
-    Develop offline storage and playback capabilities.
-    Implement adaptive streaming for handling different network conditions.
+    Implement advanced caching solutions, including service workers.
+    Develop capabilities for storing and playing back content offline.
+    Optimize adaptive streaming technologies to accommodate varying network conditions.
 
 ## MVP Version 5: Community Features and Expansion
 
-Objective: Expand the platform's community features and explore additional markets and integrations.
+Objective: Expand the platform with additional community engagement features and explore new market integrations.
 
-Features:
+### Features:
 
-    (One of these, max two)
-    Live Events: Jacktrip or other
-    AR/VR: Expose an api, or develop a widget
-    Brand Strategy: Analytics Dashboards, Artist Brand Funds, Incubator Programs
-    p2p discoverability: Recommendations based on your node network, no ads 
+    Live Events: Incorporate live streaming functionalities, potentially using technologies like Jacktrip.
+    AR/VR Integration: Explore AR/VR capabilities to enhance user experience, possibly through API exposure or widget development.
+    Brand Strategy and Community Building: Develop analytics dashboards, establish artist brand funds, and set up incubator programs.
+    P2P Discoverability: Enhance content discoverability through recommendations based on the user's node network, emphasizing a non-ad-based model.
 
-Development Focus:
+### Development Focus:
 
-    Build live streaming functionality with real-time interaction capabilities.
-    Establish community spaces
-    Design and document public APIs for extending platform functionality
+    Establish live streaming capabilities with real-time user interaction.
+    Create spaces for community engagement and support.
+    Design and document public APIs to facilitate external integrations and collaborations.
